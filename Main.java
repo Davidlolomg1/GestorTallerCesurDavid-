@@ -31,15 +31,25 @@ public class Main {
 			
 			case 2 -> {
 				int opcionE;
-				System.out.println("Modificar empleado");
+				System.out.println("1. Modificar empleado: ");
 				opcionE = sc.nextInt();
-				System.out.println("Contratar empleado: ");
+				System.out.println("2. Contratar empleado: ");
 				opcionE = sc.nextInt();
-				System.out.println("Ver horario de un empleado");				
+				System.out.println("3. Ver horario de un empleado");				
 				opcionE = sc.nextInt();
 
 				switch(opcionE){
-					
+					case 1 -> {
+						System.out.println("");
+						System.out.println("");
+					}
+					case 2 -> {
+						System.out.println("");
+						System.out.println("");
+					}
+					case 3 -> {
+						//Desglose lista de horarios
+					}
 				}
 			}
 			case 3 -> {
