@@ -26,9 +26,7 @@ public class Main {
 				System.out.println("Cancelar cita: ");
 				System.out.println("Modificar cita: ");		
 				
-				
 			}
-			
 			case 2 -> {
 				int opcionE;
 				System.out.println("1. Modificar empleado: ");
@@ -40,15 +38,46 @@ public class Main {
 
 				switch(opcionE){
 					case 1 -> {
-						System.out.println("");
-						System.out.println("");
+						System.out.println("Que empleado quieres modificar (indica el nombre)");
+						String empleadoNombre = sc.nextLine();
+						System.out.println("1. Modificar Nombre: ");
+						System.out.println("2. Modificar Puesto: ");
+						System.out.println("3. Modicar Sueldo: ");
+						System.out.println("4. Modificar Turno");
+						int modOpcion = sc.nextInt();
+						switch(modOpcion){
+							case 1 -> {
+								System.out.println("Introduce nuevo nombre: ");
+								String modNombre = sc.nextLine();
+							}
+							case 2 -> {
+								System.out.println("Introduce nuevo Puesto: ");
+								String modPuesto = sc.nextLine();
+							}
+							case 3 -> {
+								System.out.println("Introduce nuevo sueldo: ");
+								int modSueldo = sc.nextInt();
+							}
+							case 4 -> {
+								System.out.println("Introduce nuevo turno: ");
+								String modTurno = sc.nextLine();
+							}
+						}
 					}
 					case 2 -> {
-						System.out.println("");
-						System.out.println("");
+						System.out.println("Nombre de Empleado: ");
+						String nombre = sc.nextLine();
+						System.out.println("Puesto: ");
+						String puesto = sc.nextLine();
+						System.out.println("Sueldo: ");
+						int Sueldo = sc.nextInt();
+						System.out.println("Turno: ");
+						String turno = sc.nextLine();
+						//Llamar metodo de taller/addEmpleado
 					}
 					case 3 -> {
 						//Desglose lista de horarios
+						//llamar metodo desglose horario
 					}
 				}
 			}
