@@ -41,7 +41,7 @@ public class Cliente {
 		this.dni = dni;
 	}
 
-	public void setTelfono(String telefono){
+	public void setTelefono(String telefono){
 		this.telefono = telefono;
 	}
 	
