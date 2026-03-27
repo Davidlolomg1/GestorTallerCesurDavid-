@@ -1,4 +1,4 @@
-package Taller;
+
 import java.util.ArrayList;
 
 public class Taller {
@@ -17,7 +17,7 @@ public class Taller {
 				
 			}
 		}
-		Coche coche = new Coche(matricula,modelo,descripcionFallo);
+		public Coche coche = new Coche(matricula,modelo,descripcionFallo);
 			
 		listaCoches.add(coche);
 		

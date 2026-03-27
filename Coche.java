@@ -1,4 +1,4 @@
-package Taller;
+
 
 public class Coche {
 	private Cliente cliente;
