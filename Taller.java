@@ -1,6 +1,8 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> f465682ac4ff706a00927eb8649625171ac964a2
 import java.util.ArrayList;
-
 public class Taller {
 	
 	ArrayList<Coche> listaCoches = new ArrayList<>();
